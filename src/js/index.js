@@ -218,8 +218,8 @@
         };
     };
 
-    $.fn.ybInput = function (selector) {
-        var inputDom = $(selector);
+    $.fn.ybInput = function () {
+        var inputDom =this;
         var isFocus = false;
         var pY = inputDom.position().top + inputDom.outerHeight();
         var pX = inputDom.position().left;
