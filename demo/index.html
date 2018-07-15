@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script src="../lib/jQuery.js"></script>
+    <script src="../src/js/index.js"></script>
+    <style>
+        div.text {
+            margin-top: 300px;
+            width: 800px;
+            padding: 50px;
+        }
+
+        div.text input {
+            width: 100%;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="wd_2_content">
+    <div class="text">
+        <input type="text" id="yingbiaoInput">
+    </div>
+    <div class="text">
+        <input type="text" id="yingbiaoInput2">
+    </div>
+    <div class="text">
+        <input type="text" id="yingbiaoInput3">
+    </div>
+    <div class="text">
+        <input type="text" id="yingbiaoInput4">
+    </div>
+
+    <script>
+        $.fn.ybInput("#yingbiaoInput")
+        $.fn.ybInput("#yingbiaoInput2")
+        $.fn.ybInput("#yingbiaoInput3")
+        $.fn.ybInput("#yingbiaoInput4")
+    </script>
+</div>
+</body>
+</html>
+

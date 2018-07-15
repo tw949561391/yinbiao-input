@@ -1,0 +1,66 @@
+@import "compass/css3";
+
+div.yinbao-input-container {
+  position: absolute;;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 4px;
+  width: 600px;
+  border: 2px solid #c9cbce;
+  margin-top: 10px;
+  table.yinbiao-input-table {
+    width: 100%;
+    VERTICAL-ALIGN: middle;
+    line-height: 19px;
+    tr {
+      height: 10px;
+    }
+    td {
+      VERTICAL-ALIGN: middle;
+      padding: 2px;
+      background-color: #eee;
+      border: 2px solid #fff;
+      &.yinbiao-button {
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+          background-color: gray;
+          color: white;
+        }
+      }
+    }
+    th {
+      FONT-SIZE: 12pt;
+      WIDTH: 10%;
+      padding: 0px 3px;
+      TEXT-ALIGN: left;
+    }
+  }
+  &:before, &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    left: 20px;
+    z-index: 999999;
+  }
+  &:before {
+    border-color: transparent transparent #ffffff;
+    top: -17px;
+    z-index: 9999999;
+  }
+
+  &:after {
+    border-color: transparent transparent #c9cbce;
+    top: -20px;
+  }
+
+}
