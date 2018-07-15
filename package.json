@@ -9,6 +9,14 @@
   "scripts": {
     "test": "compass watch"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw949561391/yinbiao-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tw949561391/yinbiao-input/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-oauth-jwt#readme",
+  "author": "TristanWong",
   "license": "ISC"
 }
